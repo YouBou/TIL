@@ -1,5 +1,5 @@
 # About YAGNI
-
+---
 ## YAGNIの法則とは
 **" You ain't gonna need it "**
 - 機能は実際に必要となるまでは追加しないのがよい
