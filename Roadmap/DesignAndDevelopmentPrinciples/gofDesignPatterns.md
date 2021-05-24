@@ -17,3 +17,11 @@
 
 - 複雑な構造を構築する場合、各部分毎に小規模なパーツを構築した上で目的となる構造を組み上げる
 - オブジェクトを組み合わせ、複雑なオブジェクトを構築するインターフェースをBuiderクラスと呼ぶ
+
+### Factory Method
+
+![](https://designpatternsphp.readthedocs.io/ja/latest/_images/uml15.png)
+
+- インスタンス作成方法をスーパークラスで定め、具体的な処理はサブクラス側に担わせる方式
+- SOLIDの5原則の"D"にあたる「依存性逆転の法則(Dependency Inversion principle)」を実現するためのパターン
+- FactoryMethodクラスは抽象クラスに依存する
