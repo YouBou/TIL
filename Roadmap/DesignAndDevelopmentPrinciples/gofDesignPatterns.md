@@ -41,3 +41,11 @@
 - オブジェクトの新規生成コストを抑えるため、プロトタイプを作成した上でコピー(clone)により生成する方式
 - インスタンス生成に複雑な処理を必要とする場合や時間がかかる場合、`new hoge()`による生成は非効率
 - `new hoge()`による生成はPrototypeのみで行い、以降はcloneによる生成で賄う
+
+### Simple Factory
+
+![](https://designpatternsphp.readthedocs.io/ja/latest/_images/uml18.png)
+
+- Static Factoryパターンとは異なる
+- 異なるパラメータの複数factoryを持つことが可能
+- 使用優先度的にはStatic Factoryよりも高い
