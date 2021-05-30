@@ -49,3 +49,11 @@
 - Static Factoryパターンとは異なる
 - 異なるパラメータの複数factoryを持つことが可能
 - 使用優先度的にはStatic Factoryよりも高い
+
+### SingleTon
+
+![](https://designpatternsphp.readthedocs.io/ja/latest/_images/uml19.png)
+
+- アプリケーション内で、対象オブジェクトのインスタンスが1つだけしか存在しないことを保証する。
+- インスタンスの状態を保持したい場合や、クラス間で共通のメソッド・プロパティにアクセスしたい場合に用いられる。
+
