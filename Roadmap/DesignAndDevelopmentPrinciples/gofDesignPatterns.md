@@ -57,3 +57,9 @@
 - アプリケーション内で、対象オブジェクトのインスタンスが1つだけしか存在しないことを保証する。
 - インスタンスの状態を保持したい場合や、クラス間で共通のメソッド・プロパティにアクセスしたい場合に用いられる。
 
+### Static Factory
+
+![](https://designpatternsphp.readthedocs.io/ja/latest/_images/uml20.png)
+
+- AbstractFactory Patternと同様に、関連したオブジェクトまたは依存オブジェクトを生成するために用いられる
+- AbstractFactoryとの違いはStaticFactoryでは1つの静的メソッドを利用して全てのタイプのオブジェクトの生成が可能。
