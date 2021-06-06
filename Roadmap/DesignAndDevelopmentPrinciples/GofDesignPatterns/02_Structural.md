@@ -42,3 +42,13 @@
 - 既存のオブジェクトに対して新たな機能やふるまいを動的に追加することを可能にする方式
 - `Decorator`クラスのコンストラクタでラップ対象のオブジェクトを受け取り、メンバとして扱うのが一般的
 - 既存クラスの拡張時に、継承に代わる手段として用いられる
+
+### Dependency Injection
+
+![](https://designpatternsphp.readthedocs.io/en/latest/_images/uml29.png)
+
+- 一般的に"DI：依存性の注入"と呼ばれる
+- クラスやメソッド内に固有の値を持たせた依存性の形に対して、依存している固有の値を外部から渡す(注入)方式
+- Interface Injection, Constructor Injection, Setter Injectionなどがある
+- モジュール間が疎結合となり保守性が高まる
+- DIを採用しない場合にくらべファイル数は増加する
