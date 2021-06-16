@@ -35,3 +35,11 @@
 - 要素の集合(配列)を保持するオブジェクトの各要素に対して順番にアクセスする方式
 - 集合を表現するList系クラスとは独立させた形でListに対する走査方法を表現するクラスを置く
 - ドメイン部分となる実装と切り離しておくことでList系クラスに変更が加わった場合の変更点を抑えられる
+
+### Mediator
+
+![](https://designpatternsphp.readthedocs.io/ja/latest/_images/uml4.png)
+
+- Mediatorは「仲裁人・調停者」を意味する
+- 複数オブジェクト間の調整役として各オブジェクトからの問合せを受け、必要に応じた判断と指示を出す
+- 調整役となるMediator Interfaceと問合せ側となるColleague Interfaceからなる
